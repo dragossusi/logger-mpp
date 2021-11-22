@@ -55,7 +55,6 @@ class PublishPlugin : Plugin<Project> {
 
     private fun MavenPublication.setupPublication(target: Project) {
 
-        artifactId = Details.artifactId
         version = Versions.app
         groupId = Details.groupId
 

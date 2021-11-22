@@ -19,5 +19,4 @@
  */
 object Details {
     const val groupId = "ro.dragossusi"
-    const val artifactId = "logger"
 }

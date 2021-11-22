@@ -1,1 +1,2 @@
-rootProject.name = "logger"
+rootProject.name = "logger-mpp"
+include("logger")

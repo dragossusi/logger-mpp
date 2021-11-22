@@ -2,7 +2,7 @@ package ro.dragossusi.logger
 
 import android.util.Log
 
-class AndroidLogger(
+open class AndroidLogger(
     val tag: String
 ) : TagLogger {
     override fun i(message: String) {
